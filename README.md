@@ -1,6 +1,9 @@
 # Environment:
 
+`composer install --ignore-platform-reqs`
+
 `./vendor/bin/sail up -d`
+
 `./vendor/bin/sail artisan migrate`
 
 **Create admin user with token:**
